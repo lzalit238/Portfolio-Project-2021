@@ -1,0 +1,82 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  background-color: #185CA3;
+  box-shadow: 5px 10px #5080B3 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav li a :active {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body h1 {
+  color: white;
+}
+
+body h2 {
+  color: white;
+}
+
+body h3 {
+  color: white;
+}
+
+body div {
+  /*grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto;*/
+  box-shadow: 5px 10px #5080B3 5px;
+}
+
+#space {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#portfolio {
+  background-color: #185CA3;
+  /*grid-column: 2/5;
+    grid-row: 2/2;*/
+}
+
+#about {
+  background-color: #185CA3;
+  /*grid-column: 2/3;
+    grid-row: 3/3;*/
+}
+
+#skills {
+  background-color: #185CA3;
+  /*grid-column: 3/4;
+    grid-row: 3/3;*/
+}
+
+#resume {
+  background-color: #185CA3;
+  /*grid-column: 4/5;
+    grid-row: 3/3;*/
+}
+/*# sourceMappingURL=index.css.map */
