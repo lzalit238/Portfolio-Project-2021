@@ -7,6 +7,8 @@ body, html {
     padding: 0;
     margin: 2rem;
     color: $text-color;
+    @import 'partials/_navBar.scss';
+
 }
 /*nav {
     position: fixed;
@@ -74,7 +76,7 @@ body {
 }
 
 #about {
-    background-color: $base;
+    background-color: $secondary;
     text-align: center;
     padding {
         left: 1rem;
@@ -83,7 +85,6 @@ body {
         top: 1rem;
     }
     :hover{
-        background-color: #199670;
         text-decoration: none;
     }
     /*grid-column: 2/3;
@@ -91,7 +92,7 @@ body {
 }
   
 #skills {
-    background-color: $base;
+    background-color: $secondary;
     text-align: center;
     padding {
         left: 1rem;
@@ -100,7 +101,6 @@ body {
         top:1rem;
     }
     :hover{
-        background-color: #199670;
         text-decoration: none;
     }
     /*grid-column: 3/4;
@@ -108,10 +108,9 @@ body {
 }
 
 #resume {
-    background-color: $base;
+    background-color: $secondary;
     text-align: center;
     :hover{
-        background-color: #199670;
         text-decoration: none;
     }
     /*grid-column: 4/5;
@@ -254,22 +253,6 @@ a:hover {
     margin-left: 2rem;
     border-radius: .25rem;
 }
-
-.fixed-top {
-    position: fixed;
-    top: -1rem;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-.fixed-links-nav{
-    position: fixed;
-    top: 1rem;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
   
 .navbar-toggler {
     padding: 0.25rem 0.75rem;
@@ -281,11 +264,6 @@ a:hover {
     border: 1px solid transparent;
     border-radius: 0.25rem;
     transition: box-shadow 0.15s ease-in-out;
-}
-
-.move{
-    position: relative;
-    top: 3.5rem;
 }
 
 .sticky-top-footer {

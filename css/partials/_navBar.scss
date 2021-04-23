@@ -1,0 +1,33 @@
+
+.fixed-top {
+    position: fixed;
+    top: -1rem;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.fixed-links-nav{
+    position: fixed;
+    top: 1rem;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.move{
+    position: relative;
+    top: 3.5rem;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color: #212529;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
