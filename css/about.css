@@ -1,36 +1,36 @@
 body, html {
   padding: 0;
-  margin: 0;
+  margin: 2rem;
   color: white;
 }
 
-nav {
-  position: fixed;
-  top: 0px;
-  height: 10rem;
-  width: 100%;
-  text-decoration: none;
-  color: white;
-  background-color: #20c997;
-  box-shadow: 5px 10px #199670 5px;
+/*nav {
+    position: fixed;
+    top: 0px;
+    height: 10rem;
+    width: 100%;
+    text-decoration: none;
+    color: $text-color;
+    background-color: $base;
+    box-shadow: 5px 10px $shadows;
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+    }
+    li {
+        float: right;
+        a {
+            display: block;
+            text-decoration: none;
+            padding: 10px;
+            :active{
+                text-decoration: none;
+                color: $text-color;
+            }
+        }
+    }
 }
-nav ul {
-  list-style-type: none;
-  overflow: hidden;
-}
-nav li {
-  float: right;
-}
-nav li a {
-  display: block;
-  text-decoration: none;
-  padding: 10px;
-}
-nav li a :active {
-  text-decoration: none;
-  color: white;
-}
-
+*/
 body {
   margin-top: 10rem;
   font-family: Arial, Helvetica, sans-serif;

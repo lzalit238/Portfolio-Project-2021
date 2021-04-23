@@ -83,7 +83,8 @@ body {
         top: 1rem;
     }
     :hover{
-        color: #199670;
+        background-color: #199670;
+        text-decoration: none;
     }
     /*grid-column: 2/3;
     grid-row: 3/3;*/
@@ -99,7 +100,8 @@ body {
         top:1rem;
     }
     :hover{
-        color: #199670;
+        background-color: #199670;
+        text-decoration: none;
     }
     /*grid-column: 3/4;
     grid-row: 3/3;*/
@@ -109,7 +111,8 @@ body {
     background-color: $base;
     text-align: center;
     :hover{
-        color: #199670;
+        background-color: #199670;
+        text-decoration: none;
     }
     /*grid-column: 4/5;
     grid-row: 3/3;*/
@@ -117,18 +120,21 @@ body {
 
 #aboutPage {
     :hover{
+        background-color: #199670;
         text-decoration: none;
     }
 }
 
 #skillsPage {
     :hover{
+        background-color: #199670;
         text-decoration: none;
     }
 }
 
 #resumePage {
     :hover{
+        background-color: #199670;
         text-decoration: none;
     }
 }
@@ -243,8 +249,7 @@ a:hover {
     position: relative;
     top: 3rem;
     width: 100%;
-    padding-right: var(--bs-gutter-x, 0.75rem);
-    padding-left: var(--bs-gutter-x, 0.75rem);
+
     margin-right: 2rem;
     margin-left: 2rem;
     border-radius: .25rem;
