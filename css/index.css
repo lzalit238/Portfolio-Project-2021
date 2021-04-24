@@ -21,6 +21,46 @@ body .move, html .move {
   position: relative;
   top: 3.5rem;
 }
+body .navbar-toggler, html .navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: #212529;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+body .navbar, html .navbar {
+  background-color: #20c997;
+}
+body .navbar-toggler, html .navbar-toggler {
+  border: none;
+  background-color: #212529;
+}
+body .navbar-toggler:hover, html .navbar-toggler:hover {
+  text-decoration: none;
+  background-color: #2a3035;
+  color: #2a3035;
+}
+body .navbar-toggler:focus, html .navbar-toggler:focus {
+  box-shadow: none;
+}
+body .navbar-toggler, html .navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: #212529;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+body a:hover, html a:hover {
+  color: #199670 5px;
+}
 
 /*nav {
     position: fixed;
@@ -51,6 +91,64 @@ body .move, html .move {
 */
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+body .fixed-top {
+  position: fixed;
+  top: -1rem;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+body .fixed-links-nav {
+  position: fixed;
+  top: 1rem;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+body .move {
+  position: relative;
+  top: 3.5rem;
+}
+body .navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: #212529;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+body .navbar {
+  background-color: #20c997;
+}
+body .navbar-toggler {
+  border: none;
+  background-color: #212529;
+}
+body .navbar-toggler:hover {
+  text-decoration: none;
+  background-color: #2a3035;
+  color: #2a3035;
+}
+body .navbar-toggler:focus {
+  box-shadow: none;
+}
+body .navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: #212529;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+body a:hover {
+  color: #199670 5px;
 }
 body h1 {
   color: white;
@@ -86,7 +184,7 @@ body div {
 }
 
 #about {
-  background-color: #20c997;
+  background-color: #1bac80;
   text-align: center;
   /*grid-column: 2/3;
   grid-row: 3/3;*/
@@ -98,12 +196,11 @@ body div {
   top: 1rem;
 }
 #about :hover {
-  background-color: #199670;
   text-decoration: none;
 }
 
 #skills {
-  background-color: #20c997;
+  background-color: #1bac80;
   text-align: center;
   /*grid-column: 3/4;
   grid-row: 3/3;*/
@@ -115,18 +212,16 @@ body div {
   top: 1rem;
 }
 #skills :hover {
-  background-color: #199670;
   text-decoration: none;
 }
 
 #resume {
-  background-color: #20c997;
+  background-color: #1bac80;
   text-align: center;
   /*grid-column: 4/5;
   grid-row: 3/3;*/
 }
 #resume :hover {
-  background-color: #199670;
   text-decoration: none;
 }
 
@@ -148,10 +243,6 @@ body div {
 .about-setup {
   grid-template-columns: auto auto auto auto auto;
   grid-template-rows: auto auto auto auto;
-}
-
-.navbar {
-  background-color: #20c997;
 }
 
 .profile-padding {
@@ -227,21 +318,6 @@ a:hover {
   color: #199670;
 }
 
-.navbar-toggler {
-  border: none;
-  background-color: #212529;
-}
-
-.navbar-toggler:hover {
-  text-decoration: none;
-  background-color: #2a3035;
-  color: #2a3035;
-}
-
-.navbar-toggler:focus {
-  box-shadow: none;
-}
-
 .container,
 .container-fluid,
 .container-xxl,
@@ -255,18 +331,6 @@ a:hover {
   margin-right: 2rem;
   margin-left: 2rem;
   border-radius: 0.25rem;
-}
-
-.navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  margin-top: 1rem;
-  margin-left: 1rem;
-  background-color: #212529;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  transition: box-shadow 0.15s ease-in-out;
 }
 
 .sticky-top-footer {

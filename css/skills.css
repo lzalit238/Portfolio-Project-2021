@@ -1,2 +1,105 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .fixed-top {
+  position: fixed;
+  top: -1rem;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+body .fixed-links-nav {
+  position: fixed;
+  top: 1rem;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+body .move {
+  position: relative;
+  top: 3.5rem;
+}
+body .navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: #212529;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+body .navbar {
+  background-color: #20c997;
+}
+body .navbar-toggler {
+  border: none;
+  background-color: #212529;
+}
+body .navbar-toggler:hover {
+  text-decoration: none;
+  background-color: #2a3035;
+  color: #2a3035;
+}
+body .navbar-toggler:focus {
+  box-shadow: none;
+}
+body .navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: #212529;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+body a:hover {
+  color: #199670 5px;
+}
+body h1 {
+  color: white;
+}
+body h2 {
+  color: white;
+}
+body h3 {
+  color: white;
+}
 
-/*# sourceMappingURL=skills.css.map *//*# sourceMappingURL=skills.css.map */
+#space {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#portfolio {
+  background-color: #20c997;
+  text-align: center;
+  /*grid-column: 2/5;
+  grid-row: 2/2;*/
+}
+#portfolio padding {
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  top: 1rem;
+}
+
+#about {
+  background-color: #20c997;
+  text-align: center;
+  /*grid-column: 2/3;
+  grid-row: 3/3;*/
+}
+#about padding {
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  top: 1rem;
+}
+#about :hover {
+  background-color: #199670;
+  text-decoration: none;
+}/*# sourceMappingURL=skills.css.map */
