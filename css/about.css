@@ -59,6 +59,35 @@ body .navbar-toggler, html .navbar-toggler {
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
+body .navbar, html .navbar {
+  background-color: #20c997;
+}
+body .navbar-toggler, html .navbar-toggler {
+  border: none;
+  background-color: #212529;
+}
+body .navbar-toggler:hover, html .navbar-toggler:hover {
+  text-decoration: none;
+  background-color: #2a3035;
+  color: #2a3035;
+}
+body .navbar-toggler:focus, html .navbar-toggler:focus {
+  box-shadow: none;
+}
+body .navbar-toggler, html .navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: #212529;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+body a:hover, html a:hover {
+  color: #199670 5px;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -171,24 +200,8 @@ a {
   color: #20c997;
   text-decoration: underline;
 }
-
 a:hover {
-  color: #199670 5px;
-}
-
-.navbar-toggler {
-  border: none;
-  background-color: #212529;
-}
-
-.navbar-toggler:hover {
-  text-decoration: none;
-  background-color: #2a3035;
-  color: #2a3035;
-}
-
-.navbar-toggler:focus {
-  box-shadow: none;
+  color: #199670;
 }
 
 .container,
@@ -227,6 +240,9 @@ a:hover {
 .move {
   position: relative;
   top: 3.5rem;
+}
+.move a h4:hover {
+  color: #20c997;
 }
 
 .sticky-top-footer {

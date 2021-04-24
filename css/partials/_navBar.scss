@@ -1,3 +1,7 @@
+$base: #20c997;
+$secondary: #1bac80;
+$shadows: #199670 5px;
+$text-color: white; 
 
 .fixed-top {
     position: fixed;
@@ -31,3 +35,39 @@
     border-radius: 0.25rem;
     transition: box-shadow 0.15s ease-in-out;
 }
+
+.navbar {
+    background-color: $base;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: #212529;
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+    background-color: #2a3035;
+    color: #2a3035;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color: #212529;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+a:hover {
+    color: $shadows;
+}
+

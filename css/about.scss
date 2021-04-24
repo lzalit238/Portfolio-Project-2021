@@ -1,7 +1,7 @@
 $base: #20c997;
 $secondary: #1bac80;
 $tertiary: #199670;
-$shadows: #199670 5px;
+$shadows: #199670;
 $text-color: white; 
 
 /*nav {
@@ -162,25 +162,9 @@ body {
 a {
     color: $base;
     text-decoration: underline;
-}
-
-a:hover {
-    color: $shadows;
-}
-
-.navbar-toggler {
-    border: none;
-    background-color: #212529;
-}
-
-.navbar-toggler:hover {
-    text-decoration: none;
-    background-color: #2a3035;
-    color: #2a3035;
-}
-
-.navbar-toggler:focus {
-    box-shadow: none;
+    &:hover {
+        color: $shadows;
+    }
 }
 
 .container,
@@ -216,10 +200,12 @@ a:hover {
     z-index: 1030;
 }
 
-
 .move{
     position: relative;
     top: 3.5rem;
+    a h4:hover {
+        color: $base;
+    }
 }
 
 .sticky-top-footer {
