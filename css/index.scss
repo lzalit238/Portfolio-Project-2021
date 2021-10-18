@@ -1,14 +1,16 @@
 $base: #20c997;
 $secondary: #1bac80;
 $shadows: #199670 5px;
-$text-color: white; 
+$text-color: white;
 
-body, html {
-    padding: 0;
-    margin: 2rem;
-    color: $text-color;
-    @import 'partials/_navBar.scss';
-
+body,
+html {
+  padding: 0;
+  margin: 2rem;
+  color: $text-color;
+  @import "partials/_navBar.scss";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 /*nav {
     position: fixed;
@@ -38,186 +40,182 @@ body, html {
 }
 */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 
-    @import 'partials/_navBar.scss';
-    h1 {
-        color: $text-color;
-    }
-    h2 {
-        color: $text-color;
-    }
-    h3 {
-        color: $text-color;
-    }
-    div{
-        /*grid-template-columns: auto auto auto auto auto auto;
+  @import "partials/_navBar.scss";
+  h1 {
+    color: $text-color;
+  }
+  h2 {
+    color: $text-color;
+  }
+  h3 {
+    color: $text-color;
+  }
+  div {
+    /*grid-template-columns: auto auto auto auto auto auto;
         grid-template-rows: auto auto auto auto;*/
-        box-shadow: 5px 10px $shadows;
-    }
+    box-shadow: 5px 10px $shadows;
+  }
 }
 
 #space {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #portfolio {
-    background-color: $base;
-    text-align: center;
-    padding {
-        left: 1rem;
-        right: 1rem;
-        bottom: 1rem;
-        top: 1rem;
-    }
-    /*grid-column: 2/5;
+  background-color: $base;
+  text-align: center;
+  padding {
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    top: 1rem;
+  }
+  /*grid-column: 2/5;
     grid-row: 2/2;*/
 }
 
 #about {
-    background-color: $secondary;
-    text-align: center;
-    padding {
-        left: 1rem;
-        right: 1rem;
-        bottom: 1rem;
-        top: 1rem;
-    }
-    :hover{
-        text-decoration: none;
-    }
-    /*grid-column: 2/3;
+  background-color: $secondary;
+  text-align: center;
+  padding {
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    top: 1rem;
+  }
+  :hover {
+    text-decoration: none;
+  }
+  /*grid-column: 2/3;
     grid-row: 3/3;*/
 }
-  
+
 #skills {
-    background-color: $secondary;
-    text-align: center;
-    padding {
-        left: 1rem;
-        right: 1rem;
-        bottom: 1rem;
-        top:1rem;
-    }
-    :hover{
-        text-decoration: none;
-    }
-    /*grid-column: 3/4;
+  background-color: $secondary;
+  text-align: center;
+  padding {
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    top: 1rem;
+  }
+  :hover {
+    text-decoration: none;
+  }
+  /*grid-column: 3/4;
     grid-row: 3/3;*/
 }
 
 #resume {
-    background-color: $secondary;
-    text-align: center;
-    :hover{
-        text-decoration: none;
-    }
-    /*grid-column: 4/5;
+  background-color: $secondary;
+  text-align: center;
+  :hover {
+    text-decoration: none;
+  }
+  /*grid-column: 4/5;
     grid-row: 3/3;*/
 }
 
 #aboutPage {
-    :hover{
-        background-color: #199670;
-        text-decoration: none;
-    }
+  :hover {
+    background-color: #199670;
+    text-decoration: none;
+  }
 }
 
 #skillsPage {
-    :hover{
-        background-color: #199670;
-        text-decoration: none;
-    }
+  :hover {
+    background-color: #199670;
+    text-decoration: none;
+  }
 }
 
 #resumePage {
-    :hover{
-        background-color: #199670;
-        text-decoration: none;
-    }
+  :hover {
+    background-color: #199670;
+    text-decoration: none;
+  }
 }
 
 .about-setup {
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
 }
-
-
 
 .profile-padding {
-    padding: 2rem;
+  padding: 2rem;
 }
 
-.profileMove{
-    margin-right: 1.5rem;
-    margin-top: 1rem;
+.profileMove {
+  margin-right: 1.5rem;
+  margin-top: 1rem;
 }
 
 #top-button {
-    background-color: #20c997;
+  background-color: #20c997;
 }
 
 #middle-button {
-    background-color: #1bac80;
+  background-color: #1bac80;
 }
 
 #bottom-button {
-    background-color: #199670;
+  background-color: #199670;
 }
 
 #horizontal {
-    background-color: #2a3035;
+  background-color: #2a3035;
 }
 
 #font-color-light {
-    color: #fff;
-
+  color: #fff;
 }
 
 #font-color-dark {
-    color: #212529;
+  color: #212529;
 }
 
 .accordion-button:not(.collapsed) {
-    color: #212529;
-    background-color: #212529;
+  color: #212529;
+  background-color: #212529;
 }
 
 .accordion-button:focus {
-    border-color: #292125;
-    box-shadow: none;
+  border-color: #292125;
+  box-shadow: none;
 }
 
 .accordion-body {
-    background-color: #212529;
+  background-color: #212529;
 }
 
 .accordion-button::after {
-    transition: transform 0.2s ease-in-out, color 0.15s ease-in-out;
-    color: #212529;
+  transition: transform 0.2s ease-in-out, color 0.15s ease-in-out;
+  color: #212529;
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
 .card {
-    background-color: #2a3035;
+  background-color: #2a3035;
 }
 
-#dark-background{
-    background-color: #212529;
+#dark-background {
+  background-color: #212529;
 }
 
 a {
-    color: #20c997;
-    text-decoration: underline;
+  color: #20c997;
+  text-decoration: underline;
 }
 
 a:hover {
-    color: #199670;
+  color: #199670;
 }
 
 .container,
@@ -227,16 +225,15 @@ a:hover {
 .container-lg,
 .container-md,
 .container-sm {
-    position: relative;
-    top: 3rem;
-    width: 100%;
+  position: relative;
+  top: 3rem;
+  width: 100%;
 
-    margin-right: 2rem;
-    margin-left: 2rem;
-    border-radius: .25rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  border-radius: 0.25rem;
 }
-  
+
 .sticky-top-footer {
-    padding-top: 6rem;
+  padding-top: 6rem;
 }
-

@@ -1,0 +1,12 @@
+//Function
+@function half($num) {
+  @return $num / 2;
+}
+
+@function ned($num) {
+  @return 0 - $num;
+}
+
+@function halfNeg($num) {
+  @return neg(half($num));
+}
