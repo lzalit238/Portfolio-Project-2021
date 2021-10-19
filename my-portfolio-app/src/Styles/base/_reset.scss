@@ -169,6 +169,8 @@ button,
 input[type="button"] {
   width: auto;
   overflow: hidden;
+  border-color: transparent;
+  text-transform: capitalize;
 }
 
 //fix scalable imgs for IE7
